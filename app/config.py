@@ -9,8 +9,9 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 class Config:
     """Base configuration class."""
+
     
-    # Secret key for session management
+    # Secret key for session management : 
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'section-tracker-super-secret-key-2024'
     
     # Database configuration (SQLite for local development)
